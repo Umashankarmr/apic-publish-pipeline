@@ -218,12 +218,12 @@ curl -X 'PATCH' environment_config["APIC_PLATFORM_API_URL"] + "/api/catalogs/<OR
 
 Delete a product
 ----------------
-curl -X DELETE environment_config["APIC_PLATFORM_API_URL"] + "/api/catalogs/<ORG_NAME_OR_ID>/<CATALOG_NAME_OR_ID>/products/<PRODUCT_NAME>?confirm=<CATALOG_NAME>" -H 'Accept: application/json' -H 'Authorization: Bearer <BEARER_TOKEN>' --insecure
+#curl -X DELETE environment_config["APIC_PLATFORM_API_URL"] + "/api/catalogs/<ORG_NAME_OR_ID>/<CATALOG_NAME_OR_ID>/products/<PRODUCT_NAME>?confirm=<CATALOG_NAME>" -H 'Accept: application/json' -H 'Authorization: Bearer <BEARER_TOKEN>' --insecure
 
 
 Delete ALL Products
 -------------------
-curl -X DELETE environment_config["APIC_PLATFORM_API_URL"] + "/api/catalogs/<ORG_NAME_OR_ID>/<CATALOG_NAME_OR_ID>/products?confirm=<CATALOG_NAME>" -H 'Accept: application/json' -H 'Authorization: Bearer <BEARER_TOKEN>' --insecure
+#curl -X DELETE environment_config["APIC_PLATFORM_API_URL"] + "/api/catalogs/<ORG_NAME_OR_ID>/<CATALOG_NAME_OR_ID>/products?confirm=<CATALOG_NAME>" -H 'Accept: application/json' -H 'Authorization: Bearer <BEARER_TOKEN>' --insecure
 
 
 More info on APIC management REST endpoints:
